@@ -1,0 +1,36 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95EABBAA-4F39-4BEF-9E5E-2EDFD338B9A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyWater.Core", "src\ManyWater.Core\ManyWater.Core.csproj", "{17DE2114-151C-46D7-832D-BA0E5CF5E107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manywater", "src\manywater\manywater.csproj", "{647272FA-058A-4317-BC23-194890E0D39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyWater.Cli", "src\ManyWater.Cli\ManyWater.Cli.csproj", "{4876D916-5963-4DD9-B0D9-F0619378F04C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17DE2114-151C-46D7-832D-BA0E5CF5E107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DE2114-151C-46D7-832D-BA0E5CF5E107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DE2114-151C-46D7-832D-BA0E5CF5E107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DE2114-151C-46D7-832D-BA0E5CF5E107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647272FA-058A-4317-BC23-194890E0D39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647272FA-058A-4317-BC23-194890E0D39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647272FA-058A-4317-BC23-194890E0D39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647272FA-058A-4317-BC23-194890E0D39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4876D916-5963-4DD9-B0D9-F0619378F04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4876D916-5963-4DD9-B0D9-F0619378F04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4876D916-5963-4DD9-B0D9-F0619378F04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4876D916-5963-4DD9-B0D9-F0619378F04C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17DE2114-151C-46D7-832D-BA0E5CF5E107} = {95EABBAA-4F39-4BEF-9E5E-2EDFD338B9A4}
+		{647272FA-058A-4317-BC23-194890E0D39F} = {95EABBAA-4F39-4BEF-9E5E-2EDFD338B9A4}
+		{4876D916-5963-4DD9-B0D9-F0619378F04C} = {95EABBAA-4F39-4BEF-9E5E-2EDFD338B9A4}
+	EndGlobalSection
+EndGlobal
